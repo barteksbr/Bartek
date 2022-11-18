@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    color: rgb(50, 124, 50);
+    background-color: rgb(124, 187, 238);
+    line-height: 1.5;
+    margin: 50px 50px 20px 50px;
+    border: 3px solid black;
+    box-shadow: 9px -8px 8px 0px #40c2d6;
+    border-radius: 10px;
+    line-height: 1.5;
+
+}
+
+.header__paragraph {
+    margin: 50px 50px 20px 50px;
+    border: 3px solid black;
+    box-shadow: 9px -8px 8px 0px #40c2d6;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.header__paragraph--second {
+    line-height: 1.5;
+    text-shadow: 1px 3px 8px rgb(17, 136, 114)
+}
+
+.body {
+    max-width: 1000px;
+    background: rgb(226, 224, 224);
+    margin: auto;
+    padding: 10px;
+    font-family: lato, sans-serif;
+    text-align: center;
+
+}
+
+.dark {
+    color: rgb(5, 127, 220);
+    background: rgb(26, 10, 49);
+}
+
+
+.contact {
+    border: 1px solid rgb(45, 131, 167);
+    color: rgb(153, 14, 14);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.footer {
+    margin: 30px;
+    border: 5px solid black;
+    outline: 5px solid rgb(0, 247, 255);
+    outline-offset: 1px;
+}

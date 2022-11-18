@@ -1,0 +1,24 @@
+.navigation {
+    list-style-type: none;
+    line-height: 1.5;
+    
+}
+
+.navigation__item {
+    color: crimson;
+
+}
+
+.navigation__item:visited {
+    color: darkorchid;
+}
+
+.navigation__item:hover {
+    color: aqua;
+    border-bottom: 3px solid;
+}
+
+
+.navigation__item:active {
+    color: greenyellow
+}
